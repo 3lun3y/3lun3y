@@ -1,0 +1,21 @@
+body
+{
+	background-color:   black;
+}
+
+h1
+{
+	font-family: 'HelloAloha', sans-serif;
+	color:  rgb(230, 19, 50);
+}
+
+h3
+{
+	font-family: 'Shanella', sans-serif;
+	color:  rgb(230, 19, 50);
+}
+
+td
+{
+	color: white;
+}
