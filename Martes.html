@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Objetos en JS</title>
+</head>
+</body>
+<body>
+  <h1>Otra manera de trabajor con JSON</h1>
+  <div id="target"></div>
+<script>
+  let data={
+    "responde":{
+      "docs":[{"id":"1",
+              "nombre":"Chihuahua",
+              "real":"cabeza de manzana",
+              "Poderes":"son fastidiosos",
+              "imagen":"1.jpg"}
+              {"id":"2",
+              "nombre":"Chihuahua",
+              "real":"cabeza venado",
+              "Poderes":"gran mandibula",
+              "imagen":"2.jpg"}
+              {"id":"3",
+              "nombre":"Chihuahua",
+              "real":"toy",
+              "Poderes":"son fastidiosos",
+              "imagen":"3.jpg"}
+              {"id":"4",
+              "nombre":"Chihuahua",
+              "real":"sin pelo",
+              "Poderes":"gran mandibula",
+              "imagen":"4.jpg"}
+              {"id":"5",
+              "nombre":"Chihuahua",
+              "real":"pelo largo",
+              "Poderes":"son fastidiosos",
+              "imagen":"5.jpg"}
+              {"id":"6",
+              "nombre":"Chihuahua",
+              "real":"pelo corto o listo",
+              "Poderes":"gran mandibula",
+              "imagen":"6.jpg"}
+              {"id":"7",
+              "nombre":"Pastor Belga",
+              "real":"Malinois",
+              "Poderes":"son fastidiosos",
+              "imagen":"7.jpg"}
+              {"id":"8",
+              "nombre":"Pastor Belga",
+              "real":"Groenendael",
+              "Poderes":"gran mandibula",
+              "imagen":"8.jpg"}
+              {"id":"9",
+              "nombre":"Pastor Belga",
+              "real":"Tervueren",
+              "Poderes":"son fastidiosos",
+              "imagen":"9.jpg"}
+              {"id":"10",
+              "nombre":"Pastor Belga",
+              "real":"Laekenois",
+              "Poderes":"gran mandibula",
+              "imagen":"10.jpg"}
+              {"id":"11",
+              "nombre":"Chihuahua",
+              "real":"cabeza de manzana",
+              "Poderes":"son fastidiosos",
+              "imagen":"11.jpg"}
+              {"id":"12",
+              "nombre":"Chihuahua",
+              "real":"cabeza venado",
+              "Poderes":"gran mandibula",
+              "imagen":"12.jpg"}
+              {"id":"13",
+              "nombre":"Chihuahua",
+              "real":"cabeza de manzana",
+              "Poderes":"son fastidiosos",
+              "imagen":"13.jpg"}
+              {"id":"14",
+              "nombre":"Chihuahua",
+              "real":"cabeza venado",
+              "Poderes":"gran mandibula",
+              "imagen":"14.jpg"}
+              {"id":"15",
+              "nombre":"Chihuahua",
+              "real":"cabeza de manzana",
+              "Poderes":"son fastidiosos",
+              "imagen":"15.jpg"}
+              {"id":"16",
+              "nombre":"Chihuahua",
+              "real":"cabeza venado",
+              "Poderes":"gran mandibula",
+              "imagen":"16.jpg"}
+              {"id":"17",
+              "nombre":"Chihuahua",
+              "real":"cabeza de manzana",
+              "Poderes":"son fastidiosos",
+              "imagen":"17.jpg"}
+              {"id":"18",
+              "nombre":"Chihuahua",
+              "real":"cabeza venado",
+              "Poderes":"gran mandibula",
+              "imagen":"18.jpg"}
+              {"id":"19",
+              "nombre":"Chihuahua",
+              "real":"cabeza de manzana",
+              "Poderes":"son fastidiosos",
+              "imagen":"19.jpg"}
+              {"id":"20",
+              "nombre":"Chihuahua",
+              "real":"cabeza venado",
+              "Poderes":"gran mandibula",
+              "imagen":"20.jpg"}
+      ]
+    }
+  };
+  let target=target.querySelector('#target');
+  data=data.responde.duts;
+  data=forEach((value, key)=>{
+    target.innerHTML+=` <div class="image-list">
+    <img src="${value.imagen}" class="image-styles" />
+    
+    <p class="image-nombre">${value.nombre}</p>
+    <p class="image-real">${value.real}</p>
+    <p class="image-poderes">${value.poderes}</p>
+    </div>`
+
+  });
+</script>
+</body>
+</html> 
